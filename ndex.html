@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>JLPT-Rclone-Publisher</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 760px;
+      margin: 60px auto;
+      padding: 20px;
+      line-height: 1.8;
+      color: #263238;
+    }
+    h1 { color: #245d9c; }
+    a { color: #1469bd; }
+  </style>
+</head>
+<body>
+  <h1>JLPT-Rclone-Publisher</h1>
+  <p>個人 JLPT 日語學習網站的檔案同步與備份工具。</p>
+
+  <h2>應用程式用途</h2>
+  <p>
+    本工具使用 rclone 與 Google Drive API，
+    協助使用者在自己的電腦及 Google Drive
+    之間同步網站檔案。
+  </p>
+
+  <h2>主要功能</h2>
+  <ul>
+    <li>上傳及下載網站更新檔案</li>
+    <li>備份修改前的檔案</li>
+    <li>透過 SHA256 驗證檔案完整性</li>
+    <li>檢查同步衝突及更新結果</li>
+  </ul>
+
+  <h2>Google Drive 授權</h2>
+  <p>
+    本工具請求 Google Drive 完整檔案存取權限，
+    以便讀取及更新使用者既有的同步檔案。
+    發布工具依設定的專案路徑操作。
+  </p>
+
+  <h2>隱私權</h2>
+  <p>
+    <a href="privacy.html">查看隱私權政策</a>
+  </p>
+</body>
+</html>
